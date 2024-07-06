@@ -27,5 +27,10 @@ namespace MvcHelper.Controllers
             return View();
         }
 
+        public ActionResult UpdateLang()
+        {
+            return RedirectToAction("Index", "Home");
+        }
+
     }
 }
